@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace NewSalesDetailsVSC.Models
 {
+    //--------------------------Note------------------------------
+    // variables name need to look like same as sql table col name
+    //------------------------------------------------------------
     public class Customers
     {
         public string Customer_Name { get; set; }
